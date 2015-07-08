@@ -1,0 +1,33 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+    Diff only shows the lines of code that changed between the two files. It's much easier to spot the diff this way than reading through the whole thing.
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+    I could go back and forth different versions of files, so I could retrieve some code I had got right the first time, for instance.
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+    Pros: you specify the reason for each commit in Git with a comment; also, many files are commited at once, so  your work becomes more organized. Cons: if you forget to commit, you're screwed.
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+    In Git, when the developer commits a bunch of files at the same time, each commit is related to a logical change that had an impact on the application as a whole. GoogleDocs doesn't even work with the concept of "application".
+
+How can you use the commands git log and git diff to view the history of files?
+
+    git log shows the commits (with ID, author and time), while git diff shows the differences (insertions and deletions) between two commits. Using git log --stat is quite useful to count changes between commits.
+
+How might using version control make you more confident to make changes that
+could break something?
+
+    If I break something I can just go back to a previous commit and see which exact change introduced the bug.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+    Mainly because I want to build a website for a portfolio of my Processing experiments. I also want to use git for the projects created on the other courses I take in Udacity. 
