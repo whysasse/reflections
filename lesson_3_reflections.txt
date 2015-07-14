@@ -1,16 +1,19 @@
 When would you want to use a remote repository rather than keeping all your work local?
-	When I want an online backup of a project and/or when I want to collaborate on a project with a colleague. 
+	When I want an online backup of a project and/or when I want to collaborate on a project with a colleague.
 
 Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
-	So I can choose when to push/pull changes that are ready to share. 
+	So I can choose when to push/pull changes that are ready to share.
 
 Describe the differences between forks, clones, and branches. When would you use one instead of another?
-	Clone: used to make a copy of a repository (remote to local or local to local). 
-	Branch: used to make parallel development of new features that could later be incorporated into the master. 
-	Fork: a feature of GitHub used to make copies of remote repositories. 
+	Clone: used to make a copy of a repository (remote to local or local to local).
+	Branch: used to make parallel development of new features that could later be incorporated into the master.
+	Fork: a feature of GitHub used to make copies of remote repositories.
 
 What is the benefit of having a copy of the last known state of the remote stored locally?
-	So you are sure to be working on updated code and your commits will be easy to merge to remote. 
+	So you are sure to be working on updated code and your commits will be easy to merge to remote.
 
 How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
-	I would use Dropbox. It would be a lot harder to have two (or more) people working on the same file at the same time. But at the same time, some concepts on Git and GitHub are quite hard to get. Dropbox works with files and folders, that's it. A lot easier to understand. 
+	I would use Dropbox. It would be a lot harder to have two (or more) people working on the same file at the same time. But at the same time, some concepts on Git and GitHub are quite hard to get. Dropbox works with files and folders, that's it. A lot easier to understand.
+
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+	To develop and test a new feature, preserving the master branch as a working code. A branch can be transformed into a pull request in GitHub, before being merged into the master branch.
